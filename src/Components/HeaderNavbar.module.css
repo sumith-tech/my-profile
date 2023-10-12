@@ -1,0 +1,27 @@
+.navcontainor {
+  display: flex;
+  align-items: flex-end;
+
+}
+.navLinks {
+  display: flex;
+  font-family: 'Righteous', sans-serif;
+  color: #04364A;
+  
+}
+.nametag {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: #176B87;
+  font-size: 60px;
+}
+.navhead {
+  z-index: 1;
+  width: 100%;
+  background-size: 100%;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #d2dfd8bf !important;
+  backdrop-filter: blur(0.3px);
+}

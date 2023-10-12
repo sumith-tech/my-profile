@@ -1,0 +1,101 @@
+.mainpage {
+  background-color: #f1c40fce;
+  background-size: cover;
+  max-width: 100%;
+  z-index: -1;
+  height: 1600px;
+  background-position: center;
+  flex-direction: row;
+  position: relative;
+}
+.aboutproject {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  height: 500px;
+  padding: 10px;
+  margin-bottom: 5em;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.63);
+}
+.content {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  color: whitesmoke;
+  font-weight: 500;
+  opacity: 1;
+  padding: 1em;
+  flex-direction: column;
+  
+}
+
+.para1 {
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 2em;
+}
+.para2 {
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 2em;
+}
+.para3 {
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.63);
+  margin-bottom: 2em;
+}
+.heading1 {
+  border-radius: 3px;
+  color: rgb(17, 22, 19);
+  padding-bottom: 1em;
+}
+.heading2 {
+  border-radius: 3px;
+  color: rgb(17, 22, 19);
+  padding-bottom: 1em;
+}
+
+.heading3 {
+  border-radius: 3px;
+  color: rgb(17, 22, 19);
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    width: 100% !important;
+    margin-right: 50px;
+  }
+  .mainpage{
+    height: 2000px;
+    
+  }
+  .mainpage {
+    max-width: 100%;
+  }
+  .para1,.para2,.para3{
+   
+    margin-left: 30px;
+  }
+  .para1{
+    margin-top: 3em;
+  }
+  .heading2,.heading1,.heading3 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+  }
+ 
+}
+.hi {
+  color: rgb(73, 10, 45);
+  font-size: 40px;
+  padding-bottom: 1em;
+  margin-top: 5em;
+}

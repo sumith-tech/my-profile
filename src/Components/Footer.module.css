@@ -1,0 +1,19 @@
+.footcontainor {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5em;  
+  background-color: rgb(2, 2, 2);
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+.lists {
+  display: flex;
+  align-items: center;
+}
+.follw{
+    padding-top: 1em;
+    font-family: 'Pacifico', cursive;
+    color: antiquewhite;
+}

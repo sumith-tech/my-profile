@@ -1,0 +1,80 @@
+.mainpage {
+  max-width: 100%;
+  z-index: -1;
+  background-position: center;
+  flex-direction: row;
+  position: relative;
+}
+.image {
+  height: 1400px;
+}
+.aboutproject {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 10px;
+  font-size: 25px;
+  padding: 20px 20px 0px 30px;
+  color: rgba(255, 255, 255, 0.801);
+}
+.content {
+  position: absolute;
+  top: 600px;
+  display: flex;
+  font-weight: 500;
+  opacity: 1;
+  padding: 1em;
+  flex-direction: column;
+}
+
+.para1,
+.para2 {
+  font-size: 21px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+
+  color: rgba(255, 255, 255, 0.685);
+  margin-bottom: 2em;
+}
+
+.heading1 {
+  color: rgba(255, 255, 255, 0.897);
+  padding-bottom: 1em;
+}
+.heading2 {
+  color: rgba(255, 255, 255, 0.897);
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    width: 100% !important;
+    margin-right: 50px;
+  }
+  .image {
+    height: 1800px;
+  }
+  .aboutproject {
+    margin-bottom: 2em;
+  }
+  .para1,
+  .para2,
+  .para3 {
+    margin-left: 30px;
+  }
+  .para1 {
+    margin-top: 8em;
+  }
+  .heading2,
+  .heading1,
+  .heading3 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
+.hi {
+  color: whitesmoke;
+  font-size: 40px;
+  padding-bottom: 5px;
+  margin-top: 5em;
+}

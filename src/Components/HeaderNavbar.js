@@ -11,28 +11,14 @@ const HeaderNavbar = () => {
       <Container className={classes.navcontainor}>
         <h2 className={classes.nametag}>Sumith</h2>
         <Nav style={{ color: "black" }} className={classes.navLinks}>
-          <Nav.Link
-            style={{
-              color: "#1F4172",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-            }}
-            href="/"
-          >
+          <Nav.Link className={classes.link} href="/">
             About
           </Nav.Link>
-          <Nav.Link
-            style={{
-              color: "#1F4172",
-              paddingLeft: "20px",
-              paddingRight: "20px",
-            }}
-            href="/project"
-          >
+          <Nav.Link className={classes.link} href="/project">
             Projects
           </Nav.Link>
           <a href={resume} download="Resume">
-            <Button>Download CV</Button>
+            <Button className={classes.btn}>Download CV</Button>
           </a>
         </Nav>
       </Container>

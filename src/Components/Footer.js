@@ -1,12 +1,17 @@
-import { FiGithub, FiMail, FiLinkedin, FiInstagram } from "react-icons/fi";
+import {
+  FiGithub,
+  FiMail,
+  FiLinkedin,
+  FiInstagram,
+  FiPhone,
+} from "react-icons/fi";
 import classes from "./Footer.module.css";
 
 const socialLinks = [
   {
     id: 1,
     icon: <FiMail />,
-    
-    url: "https://www.sumith2200.ss@gmail.com/",
+    url: "https://sumith2200.ss@gmail.com/",
   },
   {
     id: 2,
@@ -29,20 +34,47 @@ const socialLinks = [
 const Footer = () => {
   return (
     <div className={classes.footcontainor}>
-      <p className={classes.follw}>Follow me</p>
-      <ul className={classes.lists}>
-        {socialLinks.map((link) => (
+      <div>
+        <p className={classes.follw}>Contacts</p>
+        <ul className={classes.lists1}>
           <a
-            href={link.url}
+            href="mailto:sumith2200.ss@gmail.com"
             target="__blank"
-            y
-            key={link.id}
+            key="6"
             className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
           >
-            <i className="text-xl sm:text-2xl md:text-3xl">{link.icon}</i>
+            <i className="text-xl sm:text-2xl md:text-3xl">
+              <FiMail />
+            </i>
+          </a>{" "}
+          <a
+            href="tel:+918610072412"
+            target="__blank"
+            key="5"
+            className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+          >
+            <i className="text-xl sm:text-2xl md:text-3xl">
+              <FiPhone />
+            </i>
           </a>
-        ))}
-      </ul>
+        </ul>
+      </div>
+      <div>
+        <p className={classes.follw}>Follow me</p>
+        <ul className={classes.lists2}>
+          {socialLinks.map((link) => (
+            <a
+              href={link.url}
+              target="__blank"
+              y
+              key={link.id}
+              className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+            >
+              <i className="text-xl sm:text-2xl md:text-3xl">{link.icon}</i>
+            </a>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import classes from "./Mainprofile.module.css";
 import pic from "../assets/abstract-digital-grid-black-background.jpg";
-import { Fullscreen } from "@mui/icons-material";
+
 const Mainprofile = () => {
   return (
     <Fragment>

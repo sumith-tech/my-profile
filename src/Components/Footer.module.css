@@ -1,19 +1,42 @@
 .footcontainor {
   display: flex;
-  align-items: center;
-  padding-top: 0.5em;  
-  background-color: rgb(2, 2, 2);
+  background-color: rgb(43, 20, 25);
   width: 100%;
-  flex-wrap: wrap;
   align-content: center;
   flex-direction: column;
-}
-.lists {
-  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.follw{
-    padding-top: 1em;
-    font-family: 'Pacifico', cursive;
-    color: antiquewhite;
+.lists2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follw {
+  padding-top: 1em;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: antiquewhite;
+}
+.contact {
+  display: flex;
+
+  padding-left: 2em;
+
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+}
+.contactheader {
+  padding-top: 1em;
+
+  font-family: 'Roboto Mono', monospace;
+  color: antiquewhite;
+}
+.lists1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1.4em;
 }

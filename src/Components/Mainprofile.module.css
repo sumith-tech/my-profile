@@ -58,8 +58,7 @@
     margin-bottom: 2em;
   }
   .para1,
-  .para2,
-  .para3 {
+  .para2 {
     margin-left: 30px;
   }
   .para1 {
@@ -73,9 +72,35 @@
     margin-left: 10px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .para1 {
+    margin-top: 14em;
+  }
+  .image {
+    height: 2200px;
+  }
+  .para1,
+  .para2 {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .para1 {
+    margin-top: 16em;
+  }
+  .image {
+    height: 2400px;
+  }
+  .para1,
+  .para2 {
+    margin-left: 10px;
+  }
+}
+
 .hi {
   color: whitesmoke;
   font-size: 40px;
   padding-bottom: 5px;
   margin-top: 5em;
-}
+  }
+  

@@ -25,7 +25,7 @@ const Mainpage = () => {
             specialize in harnessing the power of React and various other
             frameworks to bring digital visions to life. Allow me to introduce
             myself and share a bit about my journey in the world of web
-            development.
+            development..
           </p>
           <h3 className={classes.heading1}>My Journey</h3>
           <p className={classes.para2}>

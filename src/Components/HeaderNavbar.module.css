@@ -28,7 +28,7 @@
   background-color: #d2dfd8bf !important;
   backdrop-filter: blur(0.3px);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .nametag {
     font-family: "Dancing Script", cursive;
     font-weight: 400;

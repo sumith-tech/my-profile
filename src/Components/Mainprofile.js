@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Typewriter from "typewriter-effect";
 import classes from "./Mainprofile.module.css";
 import pic from "../assets/abstract-digital-grid-black-background.jpg";
 
@@ -10,17 +11,13 @@ const Mainprofile = () => {
         <div className={classes.aboutproject}>
           <p>
             <h4 className={classes.hi}>
-              Hi,i'm{" "}
-              <span
-                style={{
-                  fontWeight: "bolder",
-                  textDecoration: "underline",
-                  textDecorationColor: "grey",
+              <Typewriter
+                options={{
+                  strings: ["Hi...", "i'm Sumith"],
+                  autoStart: true,
+                  loop: true,
                 }}
-              >
-                Sumith
-              </span>
-              <br />
+              />
             </h4>
             <h4
               style={{

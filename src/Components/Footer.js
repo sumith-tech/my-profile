@@ -1,6 +1,7 @@
 import {
   FiGithub,
   FiMail,
+  FiGlobe,
   FiLinkedin,
   FiInstagram,
   FiPhone,
@@ -10,24 +11,26 @@ import classes from "./Footer.module.css";
 const socialLinks = [
   {
     id: 1,
-    icon: <FiMail />,
-    url: "https://sumith2200.ss@gmail.com/",
+    icon: <FiLinkedin />,
+    url: "www.linkedin.com/in/a-sumith",
   },
   {
     id: 2,
+
     icon: <FiGithub />,
     url: "https://github.com/sumith-tech/",
   },
   {
     id: 3,
-    icon: <FiLinkedin />,
-    url: "www.linkedin.com/in/a-sumith",
+    icon: <FiInstagram />,
+    url: "https://www.instagram.com/chief_minister_of_tamilnadu/",
   },
 
   {
     id: 4,
-    icon: <FiInstagram />,
-    url: "https://www.instagram.com/chief_minister_of_tamilnadu/",
+
+    icon: <FiGlobe />,
+    url: "https://sumithweb.netlify.app/",
   },
 ];
 

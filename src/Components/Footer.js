@@ -12,7 +12,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiLinkedin />,
-    url: "www.linkedin.com/in/a-sumith",
+    url: "https://www.linkedin.com/in/a-sumith",
   },
   {
     id: 2,

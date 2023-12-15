@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Typewriter from "typewriter-effect";
 import classes from "./Mainprofile.module.css";
-import pic from "../assets/abstract-digital-grid-black-background.jpg";
+import pic from "../assets/v1016-b-08.jpg";
 
 const Mainprofile = () => {
   return (

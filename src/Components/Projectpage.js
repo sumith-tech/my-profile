@@ -4,7 +4,7 @@ import classes from "./Projectpage.module.css";
 const Projectpage = () => {
   return (
     <Fragment>
-      <div className={classes.mainpage}>
+      <div className={classes.mainpage} id="projects">
         <div className={classes.aboutproject}>
           <p>
             <h4 className={classes.hi}>Project Portfolio</h4> Welcome to my

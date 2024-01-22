@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(43, 20, 25);
 }
 .follw {
   padding-top: 1em;
@@ -39,4 +40,5 @@ a {
   justify-content: center;
   align-items: center;
   padding-right: 1.4em;
+  background-color: rgb(43, 20, 25);
 }

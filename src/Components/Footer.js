@@ -44,7 +44,7 @@ const Footer = () => {
             href="mailto:sumith2200.ss@gmail.com"
             target="__blank"
             key="6"
-            className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+            className="text-gray-400 mx-1 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg dark:bg-ternary-dark shadow-sm p-4 duration-300"
           >
             <i className="text-xl sm:text-2xl md:text-3xl">
               <FiMail />
@@ -54,7 +54,7 @@ const Footer = () => {
             href="tel:+918610072412"
             target="__blank"
             key="5"
-            className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+            className="text-gray-400 mx-1 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg dark:bg-ternary-dark shadow-sm p-4 duration-300"
           >
             <i className="text-xl sm:text-2xl md:text-3xl">
               <FiPhone />
@@ -71,7 +71,7 @@ const Footer = () => {
               target="__blank"
               y
               key={link.id}
-              className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
+              className="text-gray-400 mx-1 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg dark:bg-ternary-dark shadow-sm p-4 duration-300"
             >
               <i className="text-xl sm:text-2xl md:text-3xl">{link.icon}</i>
             </a>

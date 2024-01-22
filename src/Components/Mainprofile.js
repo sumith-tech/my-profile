@@ -6,7 +6,7 @@ import pic from "../assets/v1016-b-08.jpg";
 const Mainprofile = () => {
   return (
     <Fragment>
-      <div className={classes.mainpage}>
+      <div className={classes.mainpage} id="home">
         <img src={pic} className={classes.image}></img>
         <div className={classes.aboutproject}>
           <p>

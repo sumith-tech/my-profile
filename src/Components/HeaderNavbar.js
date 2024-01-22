@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import classes from "./HeaderNavbar.module.css";
 import { Button } from "@mui/material";
-import resume from "../assets/Resume_sumith_Frontend_dev.pdf";
+import resume from "../assets/Resume_sumith_reactDev.pdf";
 
 const HeaderNavbar = () => {
   return (

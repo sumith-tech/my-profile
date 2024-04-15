@@ -36,7 +36,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <div className={classes.footcontainor}>
+    <div className={classes.footcontainor} id="contact">
       <div>
         <p className={classes.follw}>Contacts</p>
         <ul className={classes.lists1}>

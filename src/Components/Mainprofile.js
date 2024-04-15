@@ -2,18 +2,20 @@ import React, { Fragment } from "react";
 import Typewriter from "typewriter-effect";
 import classes from "./Mainprofile.module.css";
 import pic from "../assets/v1016-b-08.jpg";
+import Navbar from "../layout/Navbar";
 
 const Mainprofile = () => {
   return (
     <Fragment>
+      <Navbar />
       <div className={classes.mainpage} id="home">
-        <img src={pic} className={classes.image}></img>
+        <img src={pic} className={classes.image} alt="background"></img>
         <div className={classes.aboutproject}>
           <p>
             <h4 className={classes.hi}>
               <Typewriter
                 options={{
-                  strings: ["Hi...", "i'm Sumith"],
+                  strings: ["Hi...", "i'm Sumith", "Front-End Developer"],
                   autoStart: true,
                   loop: true,
                 }}

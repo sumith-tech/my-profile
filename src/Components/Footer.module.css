@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 .footcontainor {
   display: flex;
   background-color: rgb(43, 20, 25);
@@ -16,7 +17,7 @@
 .follw {
   padding-top: 1em;
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: antiquewhite;
 }
 .contact {
@@ -31,8 +32,9 @@ a {
 }
 .contactheader {
   padding-top: 1em;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
 
-  font-family: 'Roboto Mono', monospace;
   color: antiquewhite;
 }
 .lists1 {

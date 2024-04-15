@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import logo from "../assets/sumith-high-resolution-logo-transparent (4).png";
 const Navbar = () => {
-  const [isresponive, setIsresponsive] = useState(false);
+  const [isresponive, setIsresponsive] = useState(true);
 
   const showNavBar = () => {
     setIsresponsive((pre) => !pre);
